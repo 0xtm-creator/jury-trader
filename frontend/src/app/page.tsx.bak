@@ -25,7 +25,7 @@ const STRATEGIES: StrategyInfo[] = [
 ];
 
 export default function Home() {
-  const [tourMode, setTourMode] = useState(false);
+  const [showTour, setShowTour] = useState(true);
   const [data, setData] = useState<RewindData | null>(null);
   const [loading, setLoading] = useState(false);
   const [daysAgo, setDaysAgo] = useState(180);
@@ -44,11 +44,6 @@ export default function Home() {
   useEffect(() => {
     runRewind();
   }, [runRewind]);
-  useEffect(() => {
-    if (typeof window !== "undefined" && new URLSearchParams(window.location.search).get("tour") === "1") {
-      setTourMode(true);
-    }
-  }, []);
 
   const si = data?.strategy_info;
   const diff = data ? data.strategy_return_pct - data.hold_return_pct : 0;
@@ -225,7 +220,7 @@ export default function Home() {
         )}
       </div>
 
-      {tourMode && <AutoTour onSkip={() => setTourMode(false)} />}
+      {showTour && <AutoTour onComplete={() => setShowTour(false)} />}
     </main>
   );
 }

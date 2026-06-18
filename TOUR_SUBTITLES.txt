@@ -1,0 +1,26 @@
+RewindTrader — Demo Tour Subtitles
+=====================================
+
+1. Welcome to RewindTrader — Turn back time and replay your BNB investments. What if you had traded differently?
+
+2. Set your time machine: rewind 90 days into the past. See how BNB performed and how you could have profited.
+
+3. Choose your investment — from one hundred to five thousand dollars. Let's start with one thousand.
+
+4. Six strategies available: Buy & Hold, MA Crossover, DCA Weekly, RSI Signal, Bollinger Bands, and MACD Cross.
+
+5. Try Dollar-Cost Averaging — invest equal amounts every week, rain or shine. Smooths out volatility automatically.
+
+6. DCA results are in. Compare strategy return versus simple Buy & Hold. See exactly how many BNB you would have accumulated.
+
+7. Now switch to RSI Signal strategy — buying when the market is oversold, selling when overbought. Timing the cycles.
+
+8. The RSI strategy trades less frequently but aims for higher quality entries. Compare the equity curve to DCA.
+
+9. Try Bollinger Bands — buying at the lower band and selling at the upper band. Capturing mean reversion profitably.
+
+10. Now look back a full year — 365 days. See how strategies perform across entire market cycles, bull and bear.
+
+11. The equity curve visualizes every dollar of your journey — green means profit above your investment, red means loss.
+
+12. RewindTrader — What if you invested differently? Now you know. Built for BNB Hack 2026.
